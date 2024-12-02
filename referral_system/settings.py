@@ -10,7 +10,10 @@ SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.konfuz.pythonanywhere.com',
+    'konfuz.pythonanywhere.com',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
